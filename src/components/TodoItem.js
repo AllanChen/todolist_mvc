@@ -50,7 +50,8 @@ render(){
             <label onDoubleClick={this.handleDoubleClick}>
                 {todo.text}
             </label>
-            <button onClick={() => deleteTodo(todo.id)}/>            
+            <button className="destroy"
+                onClick={() => deleteTodo(todo.id)}/>            
         </div>             
     }
     
